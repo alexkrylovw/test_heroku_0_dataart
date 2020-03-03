@@ -5,7 +5,7 @@ import pytest
 @pytest.fixture()
 def test_setup():
     global driver
-    driver = webdriver.Chrome(executable_path="C:/study_pystuff/test_heroku_0/chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="C:/study_pystuff/test_heroku_0/test_heroku_0/chromedriver.exe")
 
     driver.implicitly_wait(10)
     driver.maximize_window()
